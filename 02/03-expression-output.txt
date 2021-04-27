@@ -1,0 +1,10 @@
+abc		: -100
+smallNum	: -200
+pi		: 3.1415
+largeNum	: 6.022E23
+display		: false
+alphabet	: B
+str		: Welcome to Sun Microsystems
+i[0]		: 100
+i[1]		: 200
+i[2]		: 300

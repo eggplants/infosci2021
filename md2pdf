@@ -1,0 +1,13 @@
+#!/bin/bash
+
+command -v markdown-pdf > /dev/null || {
+  sudo yarn global add markdown-pdf
+}
+
+if { [[ "$#" = 1 ]] && [[ "${1##*.}" -eq 'md' ]];}
+then
+  markdown-pdf "$1"
+  echo "Created: ${1%.*}.pdf" >&2
+else
+  echo './md2pdf <markdown>' >&2
+fi

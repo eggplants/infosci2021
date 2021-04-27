@@ -1,0 +1,10 @@
+Input Price		: 1000
+Input Year		: 1997
+Input Month		: 2
+
+Sales Tax		: 30
+Input Price		: 1000
+Input Year		: 1997
+Input Month		: 4
+
+Sales Tax		: 50
