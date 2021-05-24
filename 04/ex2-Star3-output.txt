@@ -1,0 +1,6 @@
+Input Number	: 10
+**********
+Input Number	: 1
+*
+Input Number	: 0
+Input Number	: -1

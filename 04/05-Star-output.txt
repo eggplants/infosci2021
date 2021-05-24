@@ -1,0 +1,14 @@
+Input Number	: 10
+**********
+Input Number	: 1
+*
+Input Number	: 1
+*
+Input Number	: 4
+****
+Input Number	: 5
+*****
+Input Number	: 1
+*
+Input Number	: 4
+****

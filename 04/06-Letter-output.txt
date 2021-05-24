@@ -1,0 +1,12 @@
+Input a letter[A-E]	: A
+Excellent
+Input a letter[A-E]	: B
+Very Good
+Input a letter[A-E]	: C
+Good
+Input a letter[A-E]	: D
+Fair
+Input a letter[A-E]	: E
+Poor
+Input a letter[A-E]	: F
+Input a letter[A-E]	: Z

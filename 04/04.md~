@@ -1,0 +1,63 @@
+# 情報科学04
+
+## if文
+
+```java
+if (a > 5) {
+	System.out.println("Hello")
+} else {
+	System.out.println("Good bye...!")"
+}
+
+```
+
+ex1.) Turning.java
+
+```java
+class TurningIf {
+	private static void p(String i) {
+		System.out.println(i);
+	}
+	public static void main(String args[]) {
+		if (args.length != 1) {
+			p("Please Input one number!");
+			System.exit(1);
+		} else {
+			int a = Integer.parseInt(args[0]);
+		}
+		if (a == 10) {
+			p("a -eq 10");
+		} else {
+			p("a -ne 10"")
+		}
+	}
+}
+```
+
+ex2) Eleseif.java
+
+```java
+class Elseif {
+	private static void p(String i){
+		System.out.println(i);
+	}
+	public static void main(String args[]) {
+		if (args.length != 1) {
+			p("Please Input one number!");
+			System.exit(1);
+		} else {
+			int a = Integer parseInt(args[0]);
+		}
+		if (a < 0) {
+			p("a < 0");
+		} else if (a > 0) {
+			p("a > 0");
+		} else {
+			p("a == 0");
+		}
+	}
+}
+			
+			
+
+```
