@@ -1,5 +1,5 @@
 /**
- * kadai 05-02
+ * kadai 06-02
  *
  * @author haruna wataru
  * @version 2021-05-25

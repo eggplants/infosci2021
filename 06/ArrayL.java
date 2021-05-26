@@ -1,5 +1,5 @@
 /**
- * kadai 05-01
+ * kadai 06-01
  *
  * @author haruna wataru
  * @version 2021-05-25
@@ -11,6 +11,6 @@ class ArrayL
                       "four", "five", "six",
                       "seven", "eight", "nine", "ten"};
 		System.out.println(String.join("\n", C));
-		System.err.println("Length og str	: " + C.length);
+		System.out.println("Length of str	: " + C.length);
 	}
 }
