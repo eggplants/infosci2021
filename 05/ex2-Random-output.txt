@@ -1,0 +1,6 @@
+Input number		: 100.0
+Calculated number	: 95.81995886983606
+Input number		: 100.0
+Calculated number	: 48.500544393407694
+Input number		: 100.0
+Calculated number	: 72.86222577442842

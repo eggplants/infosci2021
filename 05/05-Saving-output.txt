@@ -1,0 +1,4 @@
+Principal		: 100000
+interest rate	: 0.0040
+Term			: 3
+Now Saving		: 101204
