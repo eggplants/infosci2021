@@ -10,36 +10,6 @@ import java.util.Collections;
 
 class X
 {
-	static void evenCross(int n) {
-		List<String> cross = new ArrayList<>();
-		for (int i = 0; i < n/2; i++) {
-			cross.add(
-				" ".repeat(i) +
-				"X" +
-				" ".repeat(n - 2 * (i+1)) +
-				"X"
-			);
-		}
-		System.out.println(String.join("\n", cross));
-		Collections.reverse(cross);
-		System.out.println(String.join("\n", cross));
-	}
-	static void oddCross(int n) {
-		List<String> cross = new ArrayList<>();
-		int i = 0;
-		for (; i < n/2; i++) {
-			cross.add(
-				" ".repeat(i) +
-				"X" +
-				" ".repeat(n - 2 * (i+1)) +
-				"X"
-			);
-		}
-		System.out.println(String.join("\n", cross));
-		System.out.println(" ".repeat(i) + "X");
-		Collections.reverse(cross);
-		System.out.println(String.join("\n", cross));
-	}
 	public static void main(String args[]){
         if (args.length != 1) {
 			System.err.println("Wrong Arguments");
@@ -51,10 +21,22 @@ class X
 			System.err.println("Got	: " + N);
 			System.exit(1);
 		}
-		if (N % 2 == 0) {
-			evenCross(N);
-		} else {
-			oddCross(N);
+		List<String> cross = new ArrayList<>();
+		int i = 0;
+		for (; i < N/2; i++) {
+			cross.add(
+				" ".repeat(i) +
+				"X" +
+				" ".repeat(N - 2 * (i+1)) +
+				"X"
+			);
 		}
+		System.out.println(String.join("\n", cross));
+
+		if (N % 2 == 1)
+			System.out.println(" ".repeat(i) + "X");
+
+		Collections.reverse(cross);
+		System.out.println(String.join("\n", cross));
 	}
 }
