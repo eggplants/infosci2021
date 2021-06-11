@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+if { [[ "$#" = 1 ]] && [[ "${1##*.}" -eq 'md' ]];}
+then
+  grep -oP '(?<=`)[^\.]+\.(?:java|txt)(?=`)' "$1" | xargs touch
+else
+  echo './genrepf <markdown>' >&2
+fi

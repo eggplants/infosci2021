@@ -1,0 +1,11 @@
+This is  Program printing Employee data.
+--------------------
+No		: 1
+Name	: Tanaka
+--------------------
+No		: 0
+Name	: No name
+--------------------
+No		: 5
+Name	: Yamada
+--------------------
