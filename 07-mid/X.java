@@ -11,7 +11,7 @@ import java.util.Collections;
 class X
 {
 	public static void main(String args[]){
-        if (args.length != 1) {
+        	if (args.length != 1) {
 			System.err.println("Wrong Arguments");
 			System.exit(1);
 		}
