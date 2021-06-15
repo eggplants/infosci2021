@@ -1,0 +1,4 @@
+YAMADA	ID:1	Salary:100000
+TANAKA	ID:2	Salary:120000
+SUZUKI	ID:3	Salary:170000
+UCHIDA	ID:4	Salary:500000 Number of managing	:3
