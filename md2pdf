@@ -7,7 +7,7 @@ do
   }
 done
 
-if { [[ "$#" = 1 ]] && [[ "${1##*.}" -eq 'md' ]];}
+if { [[ "$#" = 1 ]] && [[ "${1##*.}" = 'md' ]];}
 then
   pandoc "$1" -o "${1%.*}.pdf" -f gfm \
          --pdf-engine=wkhtmltopdf \
