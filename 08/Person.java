@@ -4,27 +4,27 @@
  * @author haruna wataru
  * @version 2021-06-10
  */
-class Mine
-{
-	private int		no;
-	private String	name;
+class Mine {
+	private int no;
+	private String name;
 
 	void setData(int n, String s) {
-		no =	n;
-		name =	s;
+		no = n;
+		name = s;
 	}
+
 	void print() {
 		System.out.println(no);
 		System.out.println(name);
 	}
+
 	void formalPrint() {
 		System.out.println("No	: " + no);
 		System.out.println("Name	: " + name);
 	}
 }
 
-class Person
-{
+class Person {
 	public static void main(String args[]) {
 		Mine m = new Mine();
 		m.setData(1, "Tanaka");

@@ -1,3 +1,4 @@
+
 /**
  * kadai 08-02
  *
@@ -7,22 +8,17 @@
 
 import java.util.Arrays;
 
-class Disp
-{
+class Disp {
 	void display(Object... args) {
 		if (args.length < 1) {
 			System.out.println("No argument");
 		} else {
-			System.out.println(
-				Arrays.toString(args)
-					.replace("[", "").replace("]", "")
-      		);
+			System.out.println(Arrays.toString(args).replace("[", "").replace("]", ""));
 		}
 	}
 }
 
-class CreateClass
-{
+class CreateClass {
 	public static void main(String args[]) {
 		Disp obj = new Disp();
 

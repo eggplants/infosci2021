@@ -4,16 +4,17 @@
  * @author haruna wataru
  * @version 2021-05-13
  */
-class ScopeOfNum
-{
-	private static void p(String s)	{
+class ScopeOfNum {
+	private static void p(String s) {
 		System.out.println(s);
 	}
+
 	private static void pe(String s) {
 		System.err.println(s);
 	}
-	public static void main(String args[]){
-        	if (args.length != 1) {
+
+	public static void main(String args[]) {
+		if (args.length != 1) {
 			pe("Argument must be one!");
 			System.exit(1);
 		}
@@ -25,5 +26,5 @@ class ScopeOfNum
 		} else {
 			p(N + " is NG");
 		}
-    	}
+	}
 }

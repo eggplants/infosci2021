@@ -4,7 +4,8 @@
  * @author haruna wataru
  * @version 2021-05-25
  */
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 class PerfectNum
 {

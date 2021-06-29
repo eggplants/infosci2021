@@ -4,12 +4,11 @@
  * @author haruna wataru
  * @version 2021-04-27
  */
-public class Expression
-{
+public class Expression {
     public static void main(String args[]) {
         int abc = -100;
         long smallNum = -200;
-        float pi = (float)3.1415;
+        float pi = (float) 3.1415;
         double largeNum = 6.022e23;
         boolean display = false;
         char alphabet = 'B';

@@ -4,16 +4,16 @@
  * @author haruna wataru
  * @version 2021-05-13
  */
-class Star2
-{
-	private static void printStar(int n){
-		while(n > 0){
+class Star2 {
+	private static void printStar(int n) {
+		while (n > 0) {
 			System.out.print("*");
 			n--;
 		}
 	}
-	public static void main(String args[]){
-        	if (args.length != 1) {
+
+	public static void main(String args[]) {
+		if (args.length != 1) {
 			System.err.println("Argument must be one!");
 			System.exit(1);
 		}
@@ -23,5 +23,5 @@ class Star2
 		if (N > 0) {
 			System.out.println("");
 		}
-    	}
+	}
 }

@@ -4,10 +4,9 @@
  * @author haruna wataru
  * @version 2021-04-27
  */
-class SalesTax
-{
-    public static void main(String arg[]){
-        double old_tax = (double)0.03, new_tax = (double)0.05;
+class SalesTax {
+    public static void main(String arg[]) {
+        double old_tax = (double) 0.03, new_tax = (double) 0.05;
         double price = 0;
         int year = 0, month = 0;
         double sales_tax = 0;
@@ -35,7 +34,7 @@ class SalesTax
         System.out.println("Input Year		: " + arg[1]);
         System.out.println("Input Month		: " + arg[2]);
         System.out.println("");
-        System.out.println("Sales Tax		: " + (int)sales_tax);
+        System.out.println("Sales Tax		: " + (int) sales_tax);
 
     }
 }

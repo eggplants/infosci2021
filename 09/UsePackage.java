@@ -1,3 +1,4 @@
+
 /**
  * kadai 09-02
  *
@@ -7,18 +8,11 @@
 
 import com.sun.japan.edu.labs.CheckData;
 
-class UsePackage
-{
+class UsePackage {
   public static void main(String args[]) {
-    int num[] = {-1, 2, -50, 100};
+    int num[] = { -1, 2, -50, 100 };
     for (int i = 0; i < num.length; i++) {
-      System.out.printf(
-        "%d is a %s number\n",
-        num[i],
-        CheckData.checkNumber(num[i]) ? "positive" : "negative"
-      );
+      System.out.printf("%d is a %s number\n", num[i], CheckData.checkNumber(num[i]) ? "positive" : "negative");
     }
   }
 }
-
-

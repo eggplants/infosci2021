@@ -5,35 +5,37 @@
  * @version 2021-06-10
  */
 
-class Employee
-{
-	int		no;
-	String	name;
+class Employee {
+	int no;
+	String name;
 
 	Employee() {
 		no = 0;
 		name = "No name";
 	}
+
 	Employee(int no_, String name_) {
 		no = no_;
 		name = name_;
 	}
+
 	static void description() {
 		String description = "This is  Program printing Employee data.";
 		System.out.println(description);
 	}
+
 	void print() {
 		System.out.println("No		: " + no);
 		System.out.println("Name	: " + name);
 	}
+
 	void changeData(int no_, String name_) {
 		no = no_;
 		name = name_;
 	}
 }
 
-class PrintEmp
-{
+class PrintEmp {
 	public static void main(String args[]) {
 
 		String HR = "-".repeat(20);
